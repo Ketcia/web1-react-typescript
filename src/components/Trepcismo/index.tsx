@@ -2,15 +2,21 @@ import * as S from "./styles";
 const Trepcismo = () =>{
     return (
         <S.Main>
-            <h1>Sobre</h1>
+            <h1>Trepcismo</h1>
             <div>
                 <section>
-                    <h2>Quem Somos</h2>
-                    <p>Trepcismo é um movimento criado por um grupo de amigos  ̶a̶n̶t̶i̶g̶u̶i̶l̶h̶e̶r̶m̶i̶s̶t̶a̶s̶ , na busca de entretenimento nessa solitária quarentena. Aqui temos como objetivo levar a diversão na forma de chamadas via discord, lives, jogos e etc. para os demais integrantes da organização. Somos liderados pelo grandioso Trep, aquele que está acima de tudo e todos.</p>
+                    <h2 id="Regras"> Regras</h2>
+                    <ol>
+                        <li>Trep.</li>
+                        <li>Apenas Trep.</li>
+                        <li>Trep em primeiro lugar SEMPRE</li>
+                        <li>No Trepcismo pode tudo e todos (com exceção de Guilhermes).</li>
+                        <li>Trep Trep e Trep!</li>
+                    </ol>
                 </section>
                 <section>
-                    <h2>Membros</h2>
-                    <p>Atualmente o movimento é composto por 10 membros, sendo eles: Ltrep, Ketcia, Cain Bem Macho, Joalison, Zash, Wladhy, Zaspo, Tutuzin Chan, Hasu e Pedroso.</p>
+                    <h2>LTrep</h2>
+                    <p>Trep é agro, Trep é tech, Trep é top, Trep é tudo!</p>
                 </section>
             </div>
         </S.Main>

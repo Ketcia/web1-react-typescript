@@ -31,4 +31,20 @@ export const Header = styled.header`
             background-color: black;
         }
     }
+    @media (max-width: 778px){
+        picture{
+            img{
+                padding-top: 0.5rem;
+                width: 3 3rem;
+                background-color: black;
+            }
+        }
+        h1{
+            font-size: 30px;
+            margin-top: 1rem;
+            font-family:Gemunu Libre ExtraBold;
+            width: 100%;
+            background-color: black;
+        }
+    }
 `

@@ -18,28 +18,30 @@ const Footer = () =>{
                 </Link>
                 <ul>
                     <li>
-                        <Link to="">Regras</Link>
+                        <Link to="/Trepcismo">Regras</Link>
                     </li>
 
                     <li>
-                        <Link to=""> Ltrep </Link>
+                        <Link to="/Trepcismo"> Ltrep </Link>
                     </li>
                     
                     <li>
-                        <Link to="">Galeria</Link>
+                        <Link to="/Trepcismo">Galeria</Link>
                     </li>
                 </ul>
             </li>
 
             <li>
-                <Link to=""> <h1>Sobre</h1> </Link>
+                <Link to="/Sobre">
+                     <h1>Sobre</h1>
+                 </Link>
 
                 <ul>
                     <li>
-                        <Link to="">Quem Somos</Link>
+                        <Link to="/Sobre">Quem Somos</Link>
                     </li>
                     <li>
-                        <Link to="">Membros</Link>
+                        <Link to="/Sobre">Membros</Link>
                     </li>
                 </ul>
             </li>

@@ -1,5 +1,6 @@
 import * as S from "./styles";
 import logo from "assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () =>{
     return (
@@ -7,7 +8,7 @@ const Header = () =>{
             <picture>
                 <img src={logo} alt="Logo do Site" />
                 <h1>
-                    <a href="index.html">Trepcismo</a>
+                    <Link to="/"> Trepcismo</Link>
                 </h1>
             </picture>
         </S.Header>
