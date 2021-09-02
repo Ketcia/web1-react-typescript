@@ -13,7 +13,7 @@ const Footer = () =>{
         </picture>
         <ul>
             <li>
-                <Link to=".\Trepcismo\index.tsx" target="_blank">
+                <Link to="/Trepcismo">
                     <h1>Trepcismo</h1>
                 </Link>
                 <ul>

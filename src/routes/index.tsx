@@ -1,10 +1,11 @@
 import { Switch, Route } from "react-router-dom";
-import { Home } from "pages";
+import { Trepcismo,Home } from "pages";
 
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/Trepcismo" component={Trepcismo}/>
+      <Route path="/" component={Home}/>
     </Switch>
   );
 };
