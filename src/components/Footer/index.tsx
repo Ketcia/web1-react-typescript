@@ -26,7 +26,7 @@ const Footer = () =>{
                     </li>
                     
                     <li>
-                        <Link to="/Trepcismo">Galeria</Link>
+                        <Link to="/Galeria"> Galeria </Link>
                     </li>
                 </ul>
             </li>
@@ -52,15 +52,16 @@ const Footer = () =>{
 
                 <ul>
                     <li>
-                        <Link to="https://www.instagram.com/" target="_blank">Instagram</Link>
+                        
+                        <Link to="https:/www.instagram.com/" target="_blank">Instagram</Link>
                     </li>
 
                     <li>
-                        <Link to="https://discord.com/" target="_blank">Discord</Link>
+                        <Link to="https:/discord.com/" target="_blank">Discord</Link>
                     </li>
 
                     <li>
-                        <Link to="https://twitter.com/home" target="_blank">Twitter</Link>
+                        <Link to="https:/twitter.com/home" target="_blank">Twitter</Link>
                     </li>
                 </ul>
             </li>

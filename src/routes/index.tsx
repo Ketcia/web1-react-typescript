@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom";
-import { Trepcismo, Home, Sobre } from "pages";
+import { Trepcismo, Home, Sobre, Galeria } from "pages";
 
 const Routes = () => {
   return (
@@ -7,6 +7,7 @@ const Routes = () => {
       <Route path="/Trepcismo" component={Trepcismo}/>
       <Route path="/Sobre" component={Sobre}/>
       <Route path="/" component={Home}/>
+      <Route path="/Galeria" component={Galeria}/>
     </Switch>
   );
 };
