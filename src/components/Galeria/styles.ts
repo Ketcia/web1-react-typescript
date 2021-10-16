@@ -10,19 +10,19 @@ export const Galeria = styled.main `
     flex-direction: column;
 
     h1{
-    margin-top: 2rem;
-    width: 20%;
-    min-width: 8rem;
-    padding: 1rem;
-    background-color:${colors.dkGrey};
+        margin-top: 2rem;
+        width: 25%;
+        min-width: 8rem;
+        padding: 1rem;
+        background-color: ${colors.darkBg};
     
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    font-family: Gemunu Libre;
+        text-align: center;
+        color: white;
+        font-family: Gemunu Libre;
     }
 
     div{
+    
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
@@ -36,7 +36,7 @@ export const Galeria = styled.main `
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            background-color:${colors.dark};
+            background-color:${colors.dkGrey};
                     img{
                 width: 30%;
                 padding: 2%;

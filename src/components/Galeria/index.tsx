@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import imgmain from "assets/img/main.png";
+import imgmain from "../../assets/img/flopa.png";
 
 const Galeria = () =>{
     return (
@@ -19,7 +19,6 @@ const Galeria = () =>{
                         <img src={imgmain} alt="Logo do Site" />   
                         <img src={imgmain} alt="Logo do Site" />   
                         <img src={imgmain} alt="Logo do Site" /> 
-                        
                     </picture>
                 </section>
             </div>

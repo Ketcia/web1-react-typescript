@@ -4,6 +4,7 @@ export {default as Indexmain} from "./Indexmain"
 export {default as Trepcismomain} from "./Trepcismo"
 export {default as Sobre} from "./Sobre"
 export {default as Galeriamain} from "./Galeria"
+export {default as Faqmain} from "./Faq"
 
 
 
