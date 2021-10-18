@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom";
-import { Trepcismo, Home, Sobre, Galeria, Faqpage} from "pages";
+import { Trepcismo, Home, Sobre, Galeria, Faqpage, Login} from "pages";
 
 
 const Routes = () => {
