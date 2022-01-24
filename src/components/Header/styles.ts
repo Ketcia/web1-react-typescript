@@ -25,7 +25,7 @@ export const Header = styled.header`
     width: 100%;
     background-color: black;
         a{
-            margin:1rem;
+            margin:2rem;
             color: white;
             text-decoration: none;
             background-color: black;

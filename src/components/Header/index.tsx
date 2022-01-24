@@ -9,8 +9,12 @@ const Header = () =>{
                 <img src={logo} alt="Logo do Site" />
                 <h1>
                     <Link to="/"> Trepcismo</Link>
+                    <Link to="/Login">Entrar</Link>
                 </h1>
+               
             </picture>
+            
+          
         </S.Header>
     );
 };

@@ -1,15 +1,14 @@
 import {IAuthContextData,IResponseUser,IUser,} from "interface/user.interface";
-
 import React, {createContext,useContext,useState,useCallback,useEffect,} from "react";
 
-import api from "Services/api";
-import { apiUser } from "Services/data";
+  import api from "Services/api";
+  import { apiUser } from "Services/data";
   
   const AuthContext = createContext<IAuthContextData>({} as IAuthContextData);
   
-  const AuthProvider: React.FC = ({children}) => {
-      
-    const [auth, setAuth] = useState<IResponseUser>({} as IResponseUser)
+  const AuthProvider: React.FC = ({ children }) => {
+    const [auth, setAuth] = useState<IResponseUser>({} as IResponseUser);
+  
     const signIn = useCallback(async ({ email, password }: IUser) => {
       const response = await apiUser.login({ email, password });
       const { token, user } = response.data;
@@ -58,7 +57,6 @@ import { apiUser } from "Services/data";
       </AuthContext.Provider>
     );
   };
-
   function useAuth(): IAuthContextData {
     const context = useContext(AuthContext);
   
