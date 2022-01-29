@@ -12,7 +12,10 @@ const Registrar = () =>{
     const { register, handleSubmit } = useForm();
 
     const handleRegister = useCallback(
+
+      
         async (data) => {
+          
           try {
             await apiUser.register(data);
             toast.success("Cadastro realizado com sucesso!");
