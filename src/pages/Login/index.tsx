@@ -1,8 +1,8 @@
 import {Header, Footer} from "components";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback,} from "react";
 import { useHistory } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { apiUser } from "Services/data";
+
 import { toast } from "react-toastify";
 import { AxiosError } from "axios";
 import { Link } from "react-router-dom";
