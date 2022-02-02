@@ -1,3 +1,4 @@
+import React from "react"
 import * as S from "./styles";
 import logo from "assets/img/logo.png";
 import { Link } from "react-router-dom";

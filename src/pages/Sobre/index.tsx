@@ -1,4 +1,5 @@
 import {Header, Footer,Sobre} from "components";
+import React from "react"
 
 const Trepcismo = () =>{
     return <> 

@@ -1,3 +1,4 @@
+import React from "react"
 import * as S from "./styles";
 import imgmain from "../../assets/img/flopa.png";
 

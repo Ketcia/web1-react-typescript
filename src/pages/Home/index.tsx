@@ -1,4 +1,5 @@
 import {Header, Footer, Indexmain} from "components";
+import React from "react"
 
 const Home = () =>{
     return <> 

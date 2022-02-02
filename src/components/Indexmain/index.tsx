@@ -1,3 +1,4 @@
+import React from "react"
 import * as S from "./styles";
 import lobo from "assets/img/main.png";
 
