@@ -1,4 +1,5 @@
 import { Switch, Route } from "react-router-dom";
+import React from "react"
 import { Trepcismo, Home, Sobre, Galeria, Faqpage, Login, Registrar} from "pages";
 
 
